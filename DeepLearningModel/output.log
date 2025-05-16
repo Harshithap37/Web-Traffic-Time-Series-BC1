@@ -1,0 +1,43 @@
+🧹 Cleared GPU cache.
+
+>> Indexing streamed training dataset...
+>> Indexing streamed dataset: informer_train_streamed.pkl
+⚠ Truncated pickle detected — using first 19027140 valid items.
+>> Indexing streamed validation dataset...
+>> Indexing streamed dataset: informer_val_streamed.pkl
+⚠ Truncated pickle detected — using first 3771900 valid items.
+
+▶️ Starting Epoch 1/15...
+✅ Epoch 1 completed in 5284.41s | Train Loss: 0.013532
+📊 Validation Results — RMSE: 0.0562, SMAPE: 4.44%
+💾 Best model saved.
+[Epoch 1] Best SMAPE so far: 4.44%, Bad Epochs: 0/2
+
+▶️ Starting Epoch 2/15...
+✅ Epoch 2 completed in 5394.12s | Train Loss: 0.001488
+📊 Validation Results — RMSE: 0.0604, SMAPE: 4.38%
+💾 Best model saved.
+[Epoch 2] Best SMAPE so far: 4.38%, Bad Epochs: 0/2
+
+▶️ Starting Epoch 3/15...
+✅ Epoch 3 completed in 5320.27s | Train Loss: 0.001062
+📊 Validation Results — RMSE: 0.0503, SMAPE: 4.02%
+💾 Best model saved.
+[Epoch 3] Best SMAPE so far: 4.02%, Bad Epochs: 0/2
+
+▶️ Starting Epoch 4/15...
+✅ Epoch 4 completed in 5329.07s | Train Loss: 0.000676
+📊 Validation Results — RMSE: 0.0607, SMAPE: 4.12%
+[Epoch 4] Best SMAPE so far: 4.02%, Bad Epochs: 1/2
+
+▶️ Starting Epoch 5/15...
+✅ Epoch 5 completed in 5246.90s | Train Loss: 0.000481
+📊 Validation Results — RMSE: 0.0767, SMAPE: 4.49%
+[Epoch 5] Best SMAPE so far: 4.02%, Bad Epochs: 2/2
+⏹️ Early stopping triggered. Stopping training.
+
+>> Running final evaluation on test set...
+>> Indexing streamed dataset: informer_test_streamed.pkl
+⚠ Truncated pickle detected — using first 5867400 valid items.
+Test RMSE: 0.0508, SMAPE: 4.00%
+✅ Saved predictions to predictions_20.csv
